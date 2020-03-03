@@ -1,15 +1,15 @@
 span.icons {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .hovered {
-    display: none;
+	display: none;
 }
 
 span.icons:hover .unhovered {
-    display: none;
+	display: none;
 }
 
 span.icons:hover .hovered {
-    display: inline;
+	display: inline;
 }
