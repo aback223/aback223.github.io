@@ -1,3 +1,7 @@
+header {
+	height: 134px;
+}
+
 span.icons {
     cursor: pointer;
 }
@@ -12,4 +16,17 @@ span.icons:hover .unhovered {
 
 span.icons:hover .hovered {
     display: inline;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.right-nav {
+	float: right;
+	line-height: 67px;
+}
+
+.right-nav ul li{
+	display: inline-block; 
 }
