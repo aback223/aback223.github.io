@@ -1,9 +1,29 @@
 body {
-	margin: 30px 50px 30px 50px;
+	margin: 0 50px 0 50px;
+	background-color: #FAF2F0;
 }
 
-header {
-	height: 134px;
+h1, h2, h3 {
+	font-family: 'Unna', serif;
+}
+
+a {
+	font-family: 'IBM Plex Mono', monospace;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+a:hover, a:active {
+	color: #FB3C00;
+	font-weight: bold;
+}
+
+.left-nav h1 {
+	font-size: 46px;
+}
+
+.left-nav span {
+	color: #FB3C00;
 }
 
 span.icons {
