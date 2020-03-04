@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: 'Unna', serif;
+	font-family: 'DM Serif Display', serif;
 }
 
 a, a:visited {
@@ -20,13 +20,16 @@ a, a:visited {
 	color: black;
 }
 
-
 a:hover, a:active {
 	color: #FB3C00;
 	font-weight: bold;
 }
 
 /** Navbar **/
+
+header {
+	height: 125px;
+}
 
 .left-nav h1 {
 	font-size: 46px;
@@ -47,7 +50,9 @@ a:hover, a:active {
 
 .right-nav {
 	float: right;
-	line-height: 67px;
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
 
 .right-nav ul li{
