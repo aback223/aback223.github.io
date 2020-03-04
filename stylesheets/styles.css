@@ -28,6 +28,7 @@ a:hover, a:active {
 
 .left-nav h1 {
 	font-size: 46px;
+	cursor: pointer;
 }
 
 .left-nav span {
