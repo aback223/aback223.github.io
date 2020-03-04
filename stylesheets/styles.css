@@ -13,11 +13,13 @@ h1, h2, h3 {
 	font-family: 'Unna', serif;
 }
 
-a {
+a, a:visited {
 	font-family: 'IBM Plex Mono', monospace;
 	text-decoration: none;
 	margin-left: 40px;
+	color: black;
 }
+
 
 a:hover, a:active {
 	color: #FB3C00;
