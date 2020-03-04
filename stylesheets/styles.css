@@ -26,6 +26,10 @@ a:hover, a:active {
 	color: #FB3C00;
 }
 
+.company-logos {
+	vertical-align: middle;
+}
+
 span.icons {
     cursor: pointer;
 }
