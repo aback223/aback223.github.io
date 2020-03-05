@@ -1,10 +1,17 @@
 html {
 	height: 100%;
+	background-image: url("../assets/bg.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+
 }
 
 body {
 	margin: 0 50px 0 50px;
-	background-color: #FAF2F0;
+	/* background-color: #FAF2F0; */
 	font-family: 'IBM Plex Mono', monospace;
 	min-height: 100%;
 }
@@ -23,6 +30,14 @@ a, a:visited {
 a:hover, a:active {
 	color: #FB3C00;
 	font-weight: bold;
+}
+
+/** Vectors **/
+
+.vector-1 {
+	position: absolute;
+	bottom: 0;
+	z-index: 0;
 }
 
 /** Navbar **/
@@ -65,6 +80,7 @@ main {
 	display: flex;
 	justify-content: center;
 	margin-top: 15%;
+	z-index: 100;
 }
 
 main h1 {
