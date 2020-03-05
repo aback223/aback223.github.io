@@ -4,14 +4,12 @@ html {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100%;
-
-
+	background-size: auto;
+	background-color: #FAF2F0;
 }
 
 body {
 	margin: 0 50px 0 50px;
-	/* background-color: git ; */
 	font-family: 'IBM Plex Mono', monospace;
 	min-height: 100%;
 }
