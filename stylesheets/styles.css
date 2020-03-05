@@ -99,6 +99,10 @@ main h1 {
 	height: 100%;
 }
 
+.portrait {
+	margin-top: 20px;
+}
+
 .hovered {
 	display: none;
 }
