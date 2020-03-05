@@ -4,8 +4,9 @@ html {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 2400px auto;
 	background-color: #FAF2F0;
+	min-width: 750px;
 }
 
 body {
