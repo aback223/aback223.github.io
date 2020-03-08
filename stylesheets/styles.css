@@ -1,6 +1,7 @@
 html {
 	background-color: #FAF2F0;
 }
+
 html#main {
 	height: 100%;
 	background-image: url("../assets/bg.png");
@@ -20,18 +21,6 @@ body {
 
 h1, h2, h3 {
 	font-family: 'DM Serif Display', serif;
-}
-
-a, a:visited {
-	font-family: 'IBM Plex Mono', monospace;
-	text-decoration: none;
-	margin-left: 40px;
-	color: black;
-}
-
-a:hover, a:active {
-	color: #FB3C00;
-	font-weight: bold;
 }
 
 /** Vectors **/
@@ -74,6 +63,21 @@ header {
 
 .right-nav ul li{
 	display: inline-block; 
+}
+
+a, a:visited {
+	font-family: 'IBM Plex Mono', monospace;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover, a:active {
+	color: #FB3C00;
+	font-weight: bold;
+}
+
+a.nav-links {
+ 	margin-left: 40px;	
 }
 
 /** Intro **/
