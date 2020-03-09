@@ -163,6 +163,7 @@ span.portrait-icons:hover .hovered {
 .filter {
 	grid-column-start: 1;
 	grid-row-start: 1;
+	font-weight: bold;
 }
 
 .description {
