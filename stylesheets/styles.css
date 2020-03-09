@@ -175,6 +175,10 @@ span.portrait-icons:hover .hovered {
 	flex-direction: column;
 }
 
+.description h2 {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
 .screenshot {
 	display: flex;
 	justify-content: center;
