@@ -137,25 +137,15 @@ span.portrait-icons:hover .hovered {
 .container {
 	display: grid;
 	grid-template-columns: 20% 430px 50px 1fr 20%;
-	grid-template-rows: 50px 1fr 1fr 1fr 50px;
+	grid-template-rows: 100px 1fr 1fr 1fr 50px;
 	column-gap: 10px;
 	row-gap: 20px;
 	grid-auto-flow: row;
-}
-
-.description {
-	display: flex;
-	justify-self: center;
-	flex-direction: column;
-}
-
-.screenshot {
-	display: flex;
-	justify-content: center;
+	margin-top: 50px;
 }
 
 .filler-left {
-	grid-row-start: 1;
+	grid-row-start: 2;
 	grid-row-end: 6;
 }
 
@@ -168,4 +158,20 @@ span.portrait-icons:hover .hovered {
 	grid-row-start: 2;
 	grid-row-end: 6;
 	grid-column-start: 5;
+}
+
+.filter {
+	grid-column-start: 1;
+	grid-row-start: 1;
+}
+
+.description {
+	display: flex;
+	justify-self: center;
+	flex-direction: column;
+}
+
+.screenshot {
+	display: flex;
+	justify-content: center;
 }
