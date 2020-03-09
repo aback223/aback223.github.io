@@ -145,6 +145,13 @@ span.portrait-icons:hover .hovered {
 	margin-top: 50px;
 }
 
+.project {
+	display: grid;
+	grid-template-columns: 430px 50px auto;
+	grid-gap:	10px;
+	grid-column: 2 / 5;
+}
+
 .filler-left {
 	grid-row-start: 2;
 	grid-row-end: 6;
