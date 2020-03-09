@@ -162,7 +162,6 @@ span.portrait-icons:hover .hovered {
 }
 
 /** Work Grid Content **/
-
 .filter {
 	grid-column-start: 1;
 	grid-row-start: 1;
@@ -177,6 +176,14 @@ span.portrait-icons:hover .hovered {
 
 .description h2 {
 	font-family: 'IBM Plex Mono', monospace;
+}
+
+.github-logo {
+	width: 34px;
+}
+
+.rubygems-logo {
+	width: 32px;
 }
 
 .screenshot {
