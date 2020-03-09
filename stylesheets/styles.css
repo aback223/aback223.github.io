@@ -142,7 +142,7 @@ main.projects-main-wrapper {
 
 .container {
 	display: grid;
-	grid-template-columns: 1fr 430px 50px 1fr 1fr;
+	grid-template-columns: 1fr 430px 135px 1fr 1fr;
 	grid-template-rows: auto;
 	column-gap: 10px;
 	row-gap: 100px;
@@ -152,7 +152,7 @@ main.projects-main-wrapper {
 
 .project {
 	display: grid;
-	grid-template-columns: 430px 50px auto;
+	grid-template-columns: 430px 135px auto;
 	grid-gap:	10px;
 	grid-column: 2 / 5;
 }
