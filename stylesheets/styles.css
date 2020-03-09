@@ -1,3 +1,4 @@
+/** Html/Body/universal font **/
 html {
 	background-color: #FAF2F0;
 }
@@ -80,7 +81,7 @@ a.nav-links {
  	margin-left: 40px;	
 }
 
-/** Intro **/
+/** Intro Page**/
 
 main.index-main-wrapper {
 	display: flex;
@@ -132,7 +133,7 @@ span.portrait-icons:hover .hovered {
 	background-color: rgba(255, 255, 255, 0.3);
 }
 
-/** work **/
+/** Work Container and Grid **/
 
 .container {
 	display: grid;
@@ -159,6 +160,8 @@ span.portrait-icons:hover .hovered {
 	grid-row-end: 6;
 	grid-column-start: 5;
 }
+
+/** Work Grid Content **/
 
 .filter {
 	grid-column-start: 1;
