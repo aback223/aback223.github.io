@@ -173,6 +173,10 @@ main.projects-main-wrapper {
 	font-family: 'IBM Plex Mono', monospace;
 }
 
+.description p {
+	font-size: 13px;
+}
+
 .github-logo {
 	width: 34px;
 }
