@@ -145,7 +145,7 @@ main.projects-main-wrapper {
 	grid-template-columns: 1fr 430px 135px 1fr 1fr;
 	grid-template-rows: auto;
 	column-gap: 10px;
-	row-gap: 100px;
+	row-gap: 150px;
 	grid-auto-flow: row;
 	margin-top: 150px;
 }
