@@ -82,7 +82,7 @@ a.nav-links {
 
 /** Intro **/
 
-main {
+main.index-main-wrapper {
 	display: flex;
 	justify-content: center;
 	margin-top: 15%;
@@ -130,4 +130,42 @@ span.portrait-icons:hover .hovered {
 	border: 1px solid black;
 	padding: 20px;
 	background-color: rgba(255, 255, 255, 0.3);
+}
+
+/** work **/
+
+.container {
+	display: grid;
+	grid-template-columns: 20% 430px 50px 1fr 20%;
+	grid-template-rows: 50px 1fr 1fr 1fr 50px;
+	column-gap: 10px;
+	row-gap: 20px;
+	grid-auto-flow: row;
+}
+
+.description {
+	display: flex;
+	justify-self: center;
+	flex-direction: column;
+}
+
+.screenshot {
+	display: flex;
+	justify-content: center;
+}
+
+.filler-left {
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+
+.filler-top {
+	grid-column-start: 2;
+	grid-column-end: 6;
+}
+
+.filler-right {
+	grid-row-start: 2;
+	grid-row-end: 6;
+	grid-column-start: 5;
 }
