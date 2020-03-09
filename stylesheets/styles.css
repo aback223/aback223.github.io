@@ -136,7 +136,7 @@ span.portrait-icons:hover .hovered {
 
 .container {
 	display: grid;
-	grid-template-columns: 20% 430px 50px 1fr 20%;
+	grid-template-columns: 345px 430px 50px 1fr 1fr;
 	grid-template-rows: 100px 1fr 1fr 1fr 50px;
 	column-gap: 10px;
 	row-gap: 20px;
