@@ -14,7 +14,7 @@ html#main {
 body {
 	margin: 0 50px 0 50px;
 	font-family: 'IBM Plex Mono', monospace;
-	min-height: 100%;
+	height: 100%;
 }
 
 h1, h2, h3 {
@@ -83,10 +83,10 @@ a.nav-links {
 main.index-main-wrapper {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
-	margin-top: 10%;
 	z-index: 100;
-	height: 400px;
+	height: calc(100% - 315px);
 }
 
 .intro-wrapper, .view-more-wrapper {
