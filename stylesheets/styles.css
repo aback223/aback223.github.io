@@ -118,19 +118,26 @@ span.portrait-icons:hover .hovered {
 	display: inline;
 }
 
-.portfolio-btn-wrapper {
+.view-more-wrapper {
 	margin-top: 50px;
 }
 
-.portfolio-btn-wrapper {
+.view-more-wrapper {
 	cursor: pointer;
+	border: 1px solid black;
+	padding: 15px 20px;
+	background-color: rgba(255, 255, 255, 0.3);
+	display: inline-block;
+	box-shadow: 4px 4px 4px rgba(0, 0 , 0, 0.25);
 }
 
-.portfolio-btn {
-	font-size: 1em;
-	border: 1px solid black;
-	padding: 20px;
-	background-color: rgba(255, 255, 255, 0.3);
+.view-more-wrapper a, 
+.view-more-wrapper img {
+vertical-align: middle;
+}
+
+.view-more-wrapper a {
+	margin-right: 10px;
 }
 
 /** Work Container and Grid **/
