@@ -78,21 +78,26 @@ a.nav-links:hover, a.nav-links:active {
 a.nav-links {
  	margin-left: 40px;	
 }
+/** Sections **/
+
+.home-section {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
 
 /** Intro Page**/
 
 main.index-main-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	z-index: 100;
-	height: calc(100% - 315px);
+	height: calc(100vh - 145px);
+	width: 100%;
 }
 
-.intro-wrapper, .view-more-wrapper {
-	display: block; 
-	clear: both;
+.intro-wrapper {
+	height: calc(100% - 238px);
+	display: flex;
+	align-items: center;
 }
 
 main h1 {
