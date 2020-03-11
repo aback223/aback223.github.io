@@ -72,7 +72,7 @@ a, a:visited {
 	color: black;
 }
 
-a:hover, a:active {
+a.nav-links:hover, a.nav-links:active {
 	color: #FB3C00;
 	font-weight: bold;
 }
@@ -85,10 +85,16 @@ a.nav-links {
 
 main.index-main-wrapper {
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	margin-top: 10%;
 	z-index: 100;
 	height: 400px;
+}
+
+.intro-wrapper, .view-more-wrapper {
+	display: block; 
+	clear: both;
 }
 
 main h1 {
@@ -120,23 +126,28 @@ span.portrait-icons:hover .hovered {
 
 .view-more-wrapper {
 	margin-top: 50px;
+	background-color: rgba(255, 255, 255, 0.3);
+	box-shadow: 4px 4px 4px rgba(0, 0 , 0, 0.25);
+	transition: background-color 0.4s ease;
 }
 
-.view-more-wrapper {
+.view-more-btn {
+	display: inline-block;
 	cursor: pointer;
 	border: 1px solid black;
 	padding: 15px 20px;
-	background-color: rgba(255, 255, 255, 0.3);
-	display: inline-block;
-	box-shadow: 4px 4px 4px rgba(0, 0 , 0, 0.25);
 }
 
-.view-more-wrapper a, 
-.view-more-wrapper img {
+.view-more-wrapper:hover {
+	background-color: #D3EFFF;
+}
+
+.view-more-btn a, 
+.view-more-btn img {
 vertical-align: middle;
 }
 
-.view-more-wrapper a {
+.view-more-btn a {
 	margin-right: 10px;
 }
 
