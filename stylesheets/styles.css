@@ -95,10 +95,9 @@ a.nav-links {
 	background-size: auto 100%;
 }
 
-#about, #experience, #work {
+#about, #experience, #projects {
 	/* height: 100vh; */
 	background-color: #FAF2F0;
-	padding-top: 200px;
 	width: 1000px;
 	margin: 0 auto;
 }
@@ -178,6 +177,10 @@ vertical-align: middle;
 }
 
 /** About Me Section **/
+
+#about {
+	padding-top: 200px;
+}
 
 .content {
 	display: flex;
