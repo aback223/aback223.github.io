@@ -96,9 +96,11 @@ a.nav-links {
 }
 
 #about, #experience, #work {
-	height: 100vh;
+	/* height: 100vh; */
 	background-color: #FAF2F0;
-	padding-top: 300px;
+	padding-top: 200px;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 /** Intro Page**/
@@ -178,8 +180,6 @@ vertical-align: middle;
 /** About Me Section **/
 
 .content {
-	width: 1000px;
-	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 	line-height: 22px;
