@@ -182,6 +182,16 @@ vertical-align: middle;
 	padding-top: 200px;
 }
 
+.about-header {
+	background-color: #F5CF1D;
+	width: 350px;
+	padding-left: 30px;
+}
+
+.about-header h1 {
+	margin: 0;
+}
+
 #about .content {
 	display: flex;
 	flex-direction: row;
