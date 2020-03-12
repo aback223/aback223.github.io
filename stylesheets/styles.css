@@ -124,9 +124,11 @@ main h1 {
 }
 
 .my-intro p {
-	line-height: 22px;
+	line-height: 27px;
   width: 90%;
 	margin-top: -22px;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
 }
 
 .hovered {
@@ -215,6 +217,7 @@ vertical-align: middle;
 	flex-direction: row;
 	line-height: 22px;
 	margin-top: 100px;
+	font-family: 'Inter', sans-serif
 }
 
 .copy {
@@ -295,7 +298,8 @@ vertical-align: middle;
 }
 
 .description p {
-	font-size: 13px;
+	font-size: 15px;
+	font-family: 'Inter', sans-serif;
 }
 
 .screenshot {
