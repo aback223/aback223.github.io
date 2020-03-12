@@ -182,7 +182,7 @@ vertical-align: middle;
 	padding-top: 200px;
 }
 
-.content {
+#about .content {
 	display: flex;
 	flex-direction: row;
 	line-height: 22px;
@@ -196,52 +196,34 @@ vertical-align: middle;
 	width: 60%;
 }
 
-/** Experience Section **/
+/** Projects Section **/
 
-#experience {
+#projects {
 	padding-top: 300px;
 }
 
-#experience h1 {
+#projects h1 {
 	display: flex;
   justify-content: flex-end;
 }
 
-/** Work Container and Grid **/
-
-main.projects-main-wrapper {
-	margin-top: 50px;
-	margin-bottom: 100px;
-}
-
-.container {
-	display: grid;
-	grid-template-columns: 1fr 430px 135px 1fr 1fr;
-	grid-template-rows: auto;
-	column-gap: 10px;
-	row-gap: 150px;
-	grid-auto-flow: row;
+#projects .content {
+	position: relative;
+	width: 100%;
 	margin-top: 150px;
 }
 
-.project {
-	display: grid;
-	grid-template-columns: 430px 135px auto;
-	grid-gap:	10px;
-	grid-column: 2 / 5;
-}
-
-/** Work Grid Content **/
-
-.filter {
-	font-weight: 700;
-}
-
 .description {
+	width: 350px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 20px 30px 30px 30px;
+	box-shadow: -6px 7px 4px rgba(75, 132, 218, 0.25);
 	display: flex;
-	justify-self: center;
 	flex-direction: column;
-	width: 100%;
+	top: 75px;
+	right: 125px;
+	position: absolute;
 }
 
 .description h2 {
@@ -258,11 +240,6 @@ main.projects-main-wrapper {
 
 .rubygems-logo {
 	width: 32px;
-}
-
-.screenshot {
-	display: flex;
-	justify-content: center;
 }
 
 .tools-used h5 {
