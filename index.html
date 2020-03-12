@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="stylesheets/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|IBM+Plex+Mono:400,700&display=swap" rel="stylesheet">
 	<title>Amy's Portfolio!</title>
@@ -12,9 +14,9 @@
 			</div>
 			<div class="right-nav inline">
 				<ul>
-					<li><a class="nav-links" href="./index.html">ABOUT ME</a></li>
-					<li><a class="nav-links" href="./index.html">EXPERIENCE</a></li>
-					<li><a class="nav-links" href="./projects.html">PROJECTS</a></li>
+					<li><a class="nav-links" href="#" onclick="scrollToSection(event, 'about')">ABOUT ME</a></li>
+					<li><a class="nav-links" href="#">EXPERIENCE</a></li>
+					<li><a class="nav-links" href="#">PROJECTS</a></li>
 					<li><a class="nav-links" href="#"><img class="company-logos" src="assets/lin-logo.png" height="32px"></a></li>
 					<li><a class="nav-links" href="https://github.com/aback223"><img class="company-logos" src="assets/github-logo.png" height="29px"></a></li>
 				</ul>
@@ -40,19 +42,19 @@
 					</div>
 				</div>
 				<div class="view-more-wrapper">
-					<div class="view-more-btn">
-						<a href="./projects.html">View More</a>
+					<div class="view-more-btn" onclick="scrollToSection(event, 'about')">
+						<span>View More</span>
 						<img src="assets/arrow.png">
 					</div>
 				</div>
 			</section>
-			<section class="about">
+			<section id="about">
 				This is the about me section.
 			</section>
-			<section class="experience">
+			<section id="experience">
 				This is the experience section.
 			</section>
-			<section class="projects">
+			<section id="projects">
 				This is the projects section.
 			</section>
 		</main>
@@ -60,4 +62,5 @@
 			Artwork and website created by Amy 
 		</div> -->
 	</body>
+	<script src="js/script.js"></script>
 </html>	
