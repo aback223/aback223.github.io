@@ -196,6 +196,12 @@ vertical-align: middle;
 	width: 60%;
 }
 
+/** Experience Section **/
+
+#experience {
+	padding-top: 300px;
+}
+
 /** Projects Section **/
 
 #projects {
