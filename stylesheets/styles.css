@@ -33,7 +33,7 @@ h1, h2, h3 {
 
 header {
 	height: 125px;
-	position: fixed;
+	/* position: fixed; */
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
