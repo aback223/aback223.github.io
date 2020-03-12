@@ -31,7 +31,7 @@ h1, h2, h3 {
 
 /** Navbar **/
 
-header {
+#navbar {
 	height: 125px;
 	/* position: fixed; */
 	width: 100%;
@@ -39,6 +39,12 @@ header {
 	justify-content: space-between;
 	box-sizing: border-box;
 	padding: 0 50px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	background-color: rgba(250, 242, 240, 0.7);
 }
 
 .left-nav h1 {
@@ -230,6 +236,7 @@ vertical-align: middle;
 /** Projects Section **/
 
 #projects {
+
 	padding-bottom: 200px;
 }
 
