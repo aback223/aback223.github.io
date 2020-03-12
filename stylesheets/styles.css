@@ -1,6 +1,7 @@
 /** Html/Body/universal font **/
 html {
 	background-color: #FAF2F0;
+	scroll-behavior: smooth;
 }
 
 html#main {
@@ -94,8 +95,9 @@ a.nav-links {
 	border: 10px solid white;
 }
 
-.about, .experience, .work {
+#about, #experience, #work {
 	height: 100vh;
+	background-color: #FAF2F0;
 }
 
 /** Intro Page**/
@@ -157,12 +159,12 @@ span.portrait-icons:hover .hovered {
 	background-color: #D3EFFF;
 }
 
-.view-more-btn a, 
+.view-more-btn span, 
 .view-more-btn img {
 vertical-align: middle;
 }
 
-.view-more-btn a {
+.view-more-btn span {
 	margin-right: 10px;
 }
 
