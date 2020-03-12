@@ -196,6 +196,17 @@ vertical-align: middle;
 	width: 60%;
 }
 
+/** Experience Section **/
+
+#experience {
+	padding-top: 300px;
+}
+
+#experience h1 {
+	display: flex;
+  justify-content: flex-end;
+}
+
 /** Work Container and Grid **/
 
 main.projects-main-wrapper {
