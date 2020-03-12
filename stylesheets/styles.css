@@ -102,6 +102,11 @@ a.nav-links {
 	margin: 0 auto;
 }
 
+#experience, #projects {
+	margin-top: 280px;
+  padding-top: 20px;
+}
+
 /** Intro Page**/
 
 main.index-main-wrapper {
@@ -209,10 +214,6 @@ vertical-align: middle;
 
 /** Experience Section **/
 
-#experience {
-	padding-top: 300px;
-}
-
 .exp-header {
 	width: 410px;
 	display: flex;
@@ -229,7 +230,6 @@ vertical-align: middle;
 /** Projects Section **/
 
 #projects {
-	padding-top: 300px;
 	padding-bottom: 200px;
 }
 
