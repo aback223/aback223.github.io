@@ -33,12 +33,14 @@ h1, h2, h3 {
 
 #navbar {
 	height: 125px;
-	/* position: fixed; */
+	position: fixed;
+	top: 0;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	box-sizing: border-box;
 	padding: 0 50px;
+	transition: background-color 0.5s ease;
 }
 
 .sticky {
