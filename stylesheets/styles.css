@@ -295,7 +295,9 @@ vertical-align: middle;
 }
 
 .description h2 {
-	font-family: 'IBM Plex Mono', monospace;
+	/* font-family: 'IBM Plex Mono', monospace; */
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
 }
 
 .description p {
@@ -317,6 +319,7 @@ vertical-align: middle;
 
 .tools-used h5 {
 	margin-bottom: 10px;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .tools-list span {
