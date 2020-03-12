@@ -230,8 +230,7 @@ vertical-align: middle;
 .exp-header {
 	width: 410px;
 	display: flex;
-	justify-content: flex-end;
-	padding-right: 30px;
+	padding-left: 30px;
 	background-color: #D3EFFF;
 	float: right;
 }
