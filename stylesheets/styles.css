@@ -239,6 +239,26 @@ vertical-align: middle;
 	margin: 0;
 }
 
+#experience .content {
+	clear: both;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+		flex-direction: column;
+		width: 60%;
+		margin: 0 auto;
+}
+
+.work p {
+	margin-top: -12px;
+	font-size: 15px;
+}
+
+.work ul li {
+	font-family: 'Inter', sans-serif;
+	padding: 5px 0;
+}
+
 /** Projects Section **/
 
 .projects-header {
