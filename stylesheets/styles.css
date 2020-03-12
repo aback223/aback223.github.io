@@ -98,6 +98,7 @@ a.nav-links {
 #about, #experience, #work {
 	height: 100vh;
 	background-color: #FAF2F0;
+	padding-top: 300px;
 }
 
 /** Intro Page**/
@@ -126,6 +127,12 @@ main h1 {
 	width: 473px;
 	margin-right: 30px;
 	height: 100%;
+}
+
+.my-intro p {
+	line-height: 22px;
+  width: 90%;
+	margin-top: -22px;
 }
 
 .hovered {
@@ -166,6 +173,24 @@ vertical-align: middle;
 
 .view-more-btn span {
 	margin-right: 10px;
+}
+
+/** About Me Section **/
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	line-height: 22px;
+}
+
+.copy {
+	width: 40%;
+}
+
+.visual	{
+	width: 60%;
 }
 
 /** Work Container and Grid **/
