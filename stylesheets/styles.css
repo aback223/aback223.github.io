@@ -21,12 +21,19 @@ h1, h2, h3 {
 	font-family: 'DM Serif Display', serif;
 }
 
+h4 {
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: normal;
+	font-size: 12px;
+}
+
 /** Navbar **/
 
 #navbar {
 	height: 125px;
 	position: fixed;
 	top: 0;
+	left: 0;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -34,6 +41,7 @@ h1, h2, h3 {
 	padding: 0 50px;
 	transition: background-color 0.5s ease;
 	z-index: 1;
+	min-width: 1030px;
 }
 
 .sticky {
@@ -89,6 +97,7 @@ a.nav-links {
 main.index-main-wrapper {
 	height: 100vh;
 	width: 100%;
+	min-width: 1030px;
 }
 
 .intro-wrapper {
@@ -181,7 +190,7 @@ vertical-align: middle;
 }
 
 #experience, #projects {
-	margin-top: 280px;
+	/* margin-top: 280px; */
   padding-top: 200px;
 }
 
@@ -232,10 +241,6 @@ vertical-align: middle;
 }
 
 /** Projects Section **/
-
-#projects {
-	padding-bottom: 200px;
-}
 
 .projects-header {
 		width: 350px;
@@ -295,4 +300,38 @@ vertical-align: middle;
 	padding: 6px;
 	border-radius: 5px;
 	font-size: 12px;
+}
+
+/** Contact Section **/
+
+#contact {
+	background-color: #FFE8E2;
+	margin-top: 200px;
+	padding: 30px 0;
+}
+
+.wave {
+	width: 100%;
+	position: relative;
+}
+
+.contact-header {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	margin: 0;
+}
+
+.contact-header a {
+	font-family: 'DM Serif Display', serif;
+}
+
+.contact-header a:hover {
+	color: #FB3C00;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
