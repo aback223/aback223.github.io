@@ -90,30 +90,6 @@ a.nav-links:hover, a.nav-links:active {
 a.nav-links {
  	margin-left: 40px;	
 }
-/** Sections **/
-
-.home-section {
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	box-sizing: border-box;
-	border: 10px solid white;
-	background: url("../assets/bg.png") no-repeat center center fixed;
-	background-size: 2600px 1440px;
-}
-
-#about, #experience, #projects {
-	/* height: 100vh; */
-	background-color: #FAF2F0;
-	width: 1000px;
-	margin: 0 auto;
-}
-
-#experience, #projects {
-	margin-top: 280px;
-  padding-top: 125px;
-}
 
 /** Intro Page**/
 
@@ -189,6 +165,31 @@ vertical-align: middle;
 
 .view-more-btn span {
 	margin-right: 10px;
+}
+
+/** Sections **/
+
+.home-section {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-sizing: border-box;
+	border: 10px solid white;
+	background: url("../assets/bg.png") no-repeat center center fixed;
+	background-size: 2600px 1440px;
+}
+
+#about, #experience, #projects {
+	/* height: 100vh; */
+	background-color: #FAF2F0;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#experience, #projects {
+	margin-top: 280px;
+  padding-top: 200px;
 }
 
 /** About Me Section **/
