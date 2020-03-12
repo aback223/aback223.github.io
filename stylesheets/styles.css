@@ -99,8 +99,8 @@ a.nav-links {
 	flex-direction: column;
 	box-sizing: border-box;
 	border: 10px solid white;
-	background: url("../assets/bg.png") no-repeat center center;
-	background-size: auto 100%;
+	background: url("../assets/bg.png") no-repeat center center fixed;
+	background-size: 2600px 1440px;
 }
 
 #about, #experience, #projects {
@@ -238,7 +238,6 @@ vertical-align: middle;
 /** Projects Section **/
 
 #projects {
-
 	padding-bottom: 200px;
 }
 
