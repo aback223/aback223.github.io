@@ -248,7 +248,7 @@ vertical-align: middle;
 	display: flex;
 	flex-direction: column;
 	top: 75px;
-	right: 125px;
+	right: 62px;
 	position: absolute;
 }
 
@@ -258,6 +258,10 @@ vertical-align: middle;
 
 .description p {
 	font-size: 13px;
+}
+
+.screenshot {
+	margin-left: 65px;
 }
 
 .github-logo {
