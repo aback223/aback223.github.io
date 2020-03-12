@@ -73,7 +73,7 @@ h4 {
 	align-items: center;
 }
 
-.right-nav ul li{
+.right-nav ul li {
 	display: inline-block; 
 }
 
@@ -328,6 +328,19 @@ vertical-align: middle;
 
 .contact-header a:hover {
 	color: #FB3C00;
+}
+
+.contact-info ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	list-style-type: none;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+.contact-info ul li {
+	margin-left: 10px;
 }
 
 .footer {
