@@ -203,6 +203,19 @@ vertical-align: middle;
 	padding-top: 300px;
 }
 
+.exp-header {
+	width: 410px;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 30px;
+	background-color: #D3EFFF;
+	float: right;
+}
+
+.exp-header h1 {
+	margin: 0;
+}
+
 /** Projects Section **/
 
 #projects {
@@ -210,9 +223,14 @@ vertical-align: middle;
 	padding-bottom: 200px;
 }
 
+.projects-header {
+		width: 350px;
+    background-color: #C6C5FF;
+}
+
 #projects h1 {
-	display: flex;
-  justify-content: flex-end;
+	margin: 0;
+	padding-left: 30px;
 }
 
 #projects .content {
