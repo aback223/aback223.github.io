@@ -333,6 +333,10 @@ vertical-align: middle;
 	font-size: 12px;
 }
 
+.wanderlust img {
+	width: 800px;
+}
+
 /** Contact Section **/
 
 #contact {
