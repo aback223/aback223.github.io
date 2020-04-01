@@ -333,8 +333,23 @@ vertical-align: middle;
 	font-size: 12px;
 }
 
-.wanderlust img {
-	width: 800px;
+
+/** Wanderlust **/
+
+.wanderlust.screenshot {
+	right: -180px;
+	position: relative;
+}
+
+.wanderlust.screenshot img {
+	width: 715px;
+}
+
+.description.wanderlust {
+	left: 49px;
+	top: 50px;
+	z-index: 1;
+	box-shadow: 6px 7px 4px rgba(75, 132, 218, 0.25);
 }
 
 /** Contact Section **/
