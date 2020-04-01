@@ -296,6 +296,7 @@ vertical-align: middle;
 	top: 75px;
 	right: 62px;
 	position: absolute;
+	z-index: 1;
 }
 
 .description h2 {
@@ -311,6 +312,7 @@ vertical-align: middle;
 
 .screenshot {
 	margin-left: 65px;
+	position: relative;
 }
 
 .github-logo {
@@ -333,12 +335,10 @@ vertical-align: middle;
 	font-size: 12px;
 }
 
-
 /** Wanderlust **/
 
 .wanderlust.screenshot {
-	right: -180px;
-	position: relative;
+	right: -195px;
 }
 
 .wanderlust.screenshot img {
@@ -346,9 +346,8 @@ vertical-align: middle;
 }
 
 .description.wanderlust {
-	left: 49px;
+	left: 25px;
 	top: 50px;
-	z-index: 1;
 	box-shadow: 6px 7px 4px rgba(75, 132, 218, 0.25);
 }
 
